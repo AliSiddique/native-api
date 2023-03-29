@@ -32,7 +32,7 @@ function App() {
 
   return (
     <NavigationContainer>
-      <Tab.Navigator screenOptions={{headerShown:false}}>
+      <Tab.Navigator  screenOptions={{headerShown:false}}>
         <Tab.Screen name="Home"
           options={{
             tabBarLabel:() => {return null},
@@ -41,10 +41,10 @@ function App() {
               name="house"
               weight="semibold"
               scale="large"
-              color="blue"
+              color="black"
               size={16}
               resizeMode="center"
-              multicolor={false}
+              multicolor={true}
               style={{ width: 32, height: 32 }}
             />
             ),
@@ -58,7 +58,7 @@ function App() {
               name="gear"
               weight="semibold"
               scale="large"
-              color="blue"
+              color="black"
               size={16}
               resizeMode="center"
               multicolor={false}
@@ -75,7 +75,7 @@ function App() {
               name="creditcard"
               weight="semibold"
               scale="large"
-              color="blue"
+              color="black"
               size={16}
               resizeMode="center"
               multicolor={false}
@@ -93,7 +93,7 @@ function App() {
               name="person"
               weight="semibold"
               scale="large"
-              color="blue"
+              color="black"
               size={16}
               resizeMode="center"
               multicolor={false}
